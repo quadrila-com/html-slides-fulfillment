@@ -7,18 +7,18 @@ compatibility_date = "2026-01-01"
 # under Settings > Variables and Secrets, with type Secret.
 
 # Entra app ID that Partner Center sends webhook tokens for (App 1 Marketplace Fulfillment).
-WEBHOOK_AUDIENCE = "d68ee3d8-604a-4e67-bc0e-ba092e8abc2e"
+WEBHOOK_AUDIENCE = "7b93790b-6403-4054-89de-90b685ec6bf9"
 
 # Entra app used by the landing page for interactive sign in (App 2 Landing Page).
-LANDING_CLIENT_ID = "19d7e8dd-41da-4301-8654-9f2d9914efe0"
+LANDING_CLIENT_ID = "078eb80e-fda9-4ed2-8255-61766c3845db"
 
 # Entra app the PowerPoint add-in signs in with (App 3 HTML Add-in).
-ADDIN_CLIENT_ID = "7fa88c81-aa12-487b-b13f-0c8fbda42b79"
+ADDIN_CLIENT_ID = "f5fd980e-a313-41ca-a503-0980d935a579"
 
 # Publisher tenant. Tokens for the fulfillment API must be issued by the
 # tenant that owns the offer, never the customer tenant.
 PUBLISHER_TENANT_ID = "6f14ef82-b29c-4b7a-8ac5-74003d9ae49d"
-PUBLISHER_CLIENT_ID = "d68ee3d8-604a-4e67-bc0e-ba092e8abc2e"
+PUBLISHER_CLIENT_ID = "7b93790b-6403-4054-89de-90b685ec6bf9"
 
 # Where to send the customer after a successful activation.
 PRODUCT_URL = "https://website-8f65c512.jpm.waz.mybluehost.me/docs.html"
